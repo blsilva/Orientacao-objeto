@@ -36,7 +36,7 @@ public:
 
 int main() {
     // Exemplo de uso
-    vector<string> dadosParaSalvar = {"vai toma no cu", "pau na taoiba", "bibu teteia", to_string(20+30)};
+    vector<string> dadosParaSalvar = {"choram as rosas!", to_string(20+30)};
     BancoDeDados::salvarDados(dadosParaSalvar);
 
     vector<string> dadosRecuperados = BancoDeDados::recuperarDados();
